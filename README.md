@@ -16,7 +16,7 @@ A ideia do projeto é a criação de um aplicativo a fim de auxiliar na execuç�
 Primeiramente, foi criado um protótipo de baixa fidelidade no Figma
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/84411392/197641398-aa0d6b82-0dd8-4e9b-8b99-8dcf7c719189.png" width="800px"/>
+<img src="https://user-images.githubusercontent.com/84411392/197641398-aa0d6b82-0dd8-4e9b-8b99-8dcf7c719189.png" />
 
 **Figura 1:** Primeiro protótipo do projeto criado no Figma.
 </div>
