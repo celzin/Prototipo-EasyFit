@@ -86,7 +86,7 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 <div align="center">
   
 | Código | Nome | Descrição |
-| --- | --- | --- |
+| :---: | :---: | --- |
 | RF001 | Manter Usuários | Permite a inclusão, exclusão, edição e remoção de usuários, requerendo o nome(80), usuário(50) e senha(10).
 | RF002 | Manter Funcionário | Permite a inclusão, exclusão, edição e remoção de usuários, requerendo o nome(80), usuário(50) e senha(10).
 | RF003 | Manter Pagamentos | Permite o gerenciamento dos pagamentos por parte dos clientes, inclui cadastrar, visualizar, editar e remover pagamentos.
