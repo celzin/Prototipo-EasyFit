@@ -109,26 +109,11 @@ Partindo para a parte prática, começamos a desenvolver a primeiraa versão do 
 
 ## Contatos
 
-<p>
+<div align="left">
   
-<a href="https://t.me/celso_vsf" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-celso_vsf-05122A?style=flat&logo=telegram" alt="telegram" width="100px"/>
-</a>
-  
-<a style="color:black" href="mailto:celsovinicius4@gmail.com?subject=[GitHub]%20Easy%20Fit%20App">
- <img align="center" src="https://img.shields.io/badge/-celsovinius4@gmail.com-05122A?style=flat&logo=email" alt="email" width="100px"/>
-</a>
-  
-</p>  
-  
-<p>
-  
-<a href="https://t.me/phpdias" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/-phpdias-05122A?style=flat&logo=telegram" alt="telegram" width="100px"/>
-</a>
-  
-<a style="color:black" href="mailto:phpdias@outlook.com?subject=[GitHub]%20Easy%20Fit%20App">
- <img align="center" src="https://img.shields.io/badge/-phpdias@outlook.com-05122A?style=flat&logo=email" alt="email" width="100px"/>
-</a>
+| Nome | Telegram | Email |
+| --- | --- | --- |
+| Celso | <img align="center" src="https://img.shields.io/badge/-celso_vsf-05122A?style=flat&logo=telegram" alt="telegram"/> | <img align="center" src="https://img.shields.io/badge/-celsovinius4@gmail.com-05122A?style=flat&logo=email" alt="email"/> |
+| Pedro | <img align="center" src="https://img.shields.io/badge/-phpdias-05122A?style=flat&logo=telegram" alt="telegram"/> | <img align="center" src="https://img.shields.io/badge/-phpdias@outlook.com-05122A?style=flat&logo=email" alt="email"/> |
 
-</p>
+</div>
