@@ -111,7 +111,7 @@ Partindo para a parte prática, começamos a desenvolver a primeiraa versão do 
 
 <div align="left">
   
-| Nome | Telegram | Email |
+| Colaborador | Telegram | Email |
 | --- | --- | --- |
 | Celso | <img align="center" src="https://img.shields.io/badge/-celso_vsf-05122A?style=flat&logo=telegram" alt="telegram"/> | <img align="center" src="https://img.shields.io/badge/-celsovinius4@gmail.com-05122A?style=flat&logo=email" alt="email"/> |
 | Pedro | <img align="center" src="https://img.shields.io/badge/-phpdias-05122A?style=flat&logo=telegram" alt="telegram"/> | <img align="center" src="https://img.shields.io/badge/-phpdias@outlook.com-05122A?style=flat&logo=email" alt="email"/> |
