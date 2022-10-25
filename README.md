@@ -1,4 +1,4 @@
-# Projeto App EasyFit
+# Projeto App EasyFit 📱
 
 <div style="display: inline_block">
   <img align="center" alt="VSCode" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
@@ -7,9 +7,13 @@
   <img align="center" alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
 </div><br/>
 
-## Abstract
+## Abstract 💡
 
+<div align="justify">
+  
 A ideia do projeto é a criação de um aplicativo a fim de auxiliar na execução dos exercícios e no acompanhamento do usuário de seu desempenho físico numa academia.
+
+</div>
 
 ## Protótipo no Figma
 
@@ -21,7 +25,7 @@ Primeiramente, foi criado um protótipo de baixa fidelidade no [**Figma**](https
 **Figura 1:** Primeiro protótipo do projeto criado no [**Figma**](https://www.figma.com/).
 </div>
 
-## Contexto da Empresa
+### Contexto da Empresa 
 
   - **Nerdolas Tech**
       - Empresa de desenvolvimento de software;
@@ -29,9 +33,9 @@ Primeiramente, foi criado um protótipo de baixa fidelidade no [**Figma**](https
       - 2 funcionários;
       - Localizada em Divinópolis - MG;
         
-## **Levantamento de Requisitos**
+### **Levantamento de Requisitos**
 
-<p class="text-justify">
+<div align="justify">
 
 1️⃣ **Reunião com dono da academia:**
   
@@ -53,9 +57,9 @@ Desse modo, notou-se que alguns alunos não recorriam aos instrutores quando tin
 
 Por fim, conduziu-se um questionário aos alunos de forma digital, com questões objetivas que tratavam sobre a possibilidade da digitalização das fichas, sobre problemas na leitura biométrica para entrada no estabelecimento e sobre o fato se tinham dúvidas ou dificuldades no entendimento dos nomes dos exercícios e a maneira como eram colocados nas fichas. Por meio dessa entrevista revelou-se que grande parte dos alunos preferiria as fichas de maneira digital e tinham dificuldades na hora de decifrar a relação entre os nomes e o que significavam na execução dos exercícios, além de confirmar a existência de problemas com relação a leitura biométrica.
     
-</p>
+</div>
 
-## **Requisitos Funcionais e Não Funcionais**
+### **Requisitos Funcionais e Não Funcionais**
   - **Funcionais:**
       - Manter Usuário
       - Manter Funcionário
@@ -71,7 +75,7 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
       - O sistema deverá utilizar banco de dados em Firebase;
       - O Admin tem acesso a todas as funções, identificado através de login e senha;
 
-## **Diagrama de Casos de Uso**
+### **Diagrama de Casos de Uso**
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/84411392/197645173-66a44d02-a9e2-4bc8-85d0-8a94d899bae5.png" width = "800px"/>
@@ -85,7 +89,7 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 **Tabela 1:** Tabela de descrição de casos de uso do projeto criado no [**Notion**](https://www.notion.so/).
 </div>
     
-## Contatos
+### Contatos
 
 <p>
   
@@ -110,3 +114,11 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 </a>
 
 </p>
+
+## Versão 1.0
+
+<div align="justify">
+
+Partindo para a parte prática, começamos a desenvolver a primeiraa versão do App, desenvolvendo em Dart no VS Code.
+  
+</div>
