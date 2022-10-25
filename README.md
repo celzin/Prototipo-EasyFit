@@ -84,9 +84,17 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/84411392/197645537-ce30901b-b128-45aa-8817-5192b8e13f46.png" width = "800px"/>
-
+  
+| Código | Nome | Descrição |
+| --- | --- | --- |
+| RF001 | Manter Usuários | Permite a inclusão, exclusão, edição e remoção de usuários, requerendo o nome(80), usuário(50) e senha(10).
+| RF002 | Manter Funcionário | Permite a inclusão, exclusão, edição e remoção de usuários, requerendo o nome(80), usuário(50) e senha(10).
+| RF003 | Manter Pagamentos | Permite o gerenciamento dos pagamentos por parte dos clientes, inclui cadastrar, visualizar, editar e remover pagamentos.
+| RF004 | Manter Fichas | Permite o gerenciamento das fichas dos clientes por parte do funcionário, podendo, esse se cadastrar, visualizar, atualizar e remover esses dados.
+| RF005 | Manter Avaliações | Permite o gerenciamento das avaliações físicas do cliente, podendo ser adicionados, lidos, atualizados ou removidos.
+  
 **Tabela 1:** Tabela de descrição de casos de uso do projeto criado no [**Notion**](https://www.notion.so/).
+
 </div>
 
 ## Versão 1.0
