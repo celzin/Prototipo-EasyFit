@@ -88,7 +88,17 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 
 **Tabela 1:** Tabela de descrição de casos de uso do projeto criado no [**Notion**](https://www.notion.so/).
 </div>
-    
+
+## Versão 1.0
+
+<div align="justify">
+
+Partindo para a parte prática, começamos a desenvolver a primeiraa versão do App, desenvolvendo em Dart no VS Code.
+  
+</div>
+
+
+
 ### Contatos
 
 <p>
@@ -114,11 +124,3 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 </a>
 
 </p>
-
-## Versão 1.0
-
-<div align="justify">
-
-Partindo para a parte prática, começamos a desenvolver a primeiraa versão do App, desenvolvendo em Dart no VS Code.
-  
-</div>
