@@ -93,7 +93,7 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 | RF004 | Manter Fichas | Permite o gerenciamento das fichas dos clientes por parte do funcionário, podendo, esse se cadastrar, visualizar, atualizar e remover esses dados.
 | RF005 | Manter Avaliações | Permite o gerenciamento das avaliações físicas do cliente, podendo ser adicionados, lidos, atualizados ou removidos.
   
-**Tabela 1:** Tabela de descrição de casos de uso do projeto criado no [**Notion**](https://www.notion.so/).
+**Tabela 1:** Tabela de descrição de casos de uso do projeto.
 
 </div>
 
