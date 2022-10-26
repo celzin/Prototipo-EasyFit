@@ -113,7 +113,7 @@ Partindo para a parte prática, começamos a desenvolver a primeiraa versão do 
   
 | Colaborador | Telegram | Email |
 | --- | --- | --- |
-| Celso | <a href="https://t.me/celso_vsf" target="_blank"> <img align="center" src="https://img.shields.io/badge/-phpdias-05122A?style=flat&logo=telegram" alt="telegram"/> </a> | <a style="color:black" href="mailto:celsovinicius4@gmail.com?subject=[GitHub]%20Easy%20Fit%20Contact"> <img align="center" src="https://img.shields.io/badge/-celsovinicius4@gmaill.com-05122A?style=flat&logo=email" alt="email"/> </a> |  
+| Celso | <a href="https://t.me/celso_vsf" target="_blank"> <img align="center" src="https://img.shields.io/badge/-celso_vsf-05122A?style=flat&logo=telegram" alt="telegram"/> </a> | <a style="color:black" href="mailto:celsovinicius4@gmail.com?subject=[GitHub]%20Easy%20Fit%20Contact"> <img align="center" src="https://img.shields.io/badge/-celsovinicius4@gmaill.com-05122A?style=flat&logo=email" alt="email"/> </a> |  
 | Pedro | <a href="https://t.me/phpdias" target="_blank"> <img align="center" src="https://img.shields.io/badge/-phpdias-05122A?style=flat&logo=telegram" alt="telegram"/> </a> | <a style="color:black" href="mailto:phpdias@outlook.com?subject=[GitHub]%20Easy%20Fit%20Contact"> <img align="center" src="https://img.shields.io/badge/-phpdias@outlook.com-05122A?style=flat&logo=email" alt="email"/> </a> |
   
 </div>
