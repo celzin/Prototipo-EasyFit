@@ -101,7 +101,15 @@ Por fim, conduziu-se um questionário aos alunos de forma digital, com questões
 
 <div align="justify">
 
-Partindo para a parte prática, começamos a desenvolver a primeiraa versão do App, desenvolvendo em Dart no VS Code.
+Partindo para a parte prática, começamos a desenvolver a primeira versão do App, desenvolvendo em Dart no VS Code.
+  
+</div>
+
+## Versão 1.1
+
+<div align="justify">
+
+[+] Funcionalidade para ler e gerar QR Code.
   
 </div>
 
