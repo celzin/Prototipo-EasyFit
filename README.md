@@ -38,7 +38,7 @@ Partindo para a parte prática, começamos a desenvolver a primeira versão do A
 
 <div align="justify">
 
-[+] Funcionalidade para ler e gerar QR Code.
+[+] Funcionalidade para gerar QR Code.
   
 </div>
 
