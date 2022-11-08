@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:prototipo_1/Api.dart';
+import 'package:prototipo_1/model/Video.dart';
 
 class Training extends StatefulWidget {
   const Training({Key? key}) : super(key: key);
@@ -8,9 +10,75 @@ class Training extends StatefulWidget {
 }
 
 class _TrainingState extends State<Training> {
+
+  _listarVideos(){
+    Api api = Api();
+    return api.pesquisar("");
+  }
+
   @override
   Widget build(BuildContext context) {
+
+    return FutureBuilder<List<Video>>(
+      future: _listarVideos(),
+      builder: (context, snapshot){
+        switch(snapshot.connectionState){
+          case ConnectionState.none :
+          case ConnectionState.waiting :
+            return Center(
+              child: CircularProgressIndicator(),
+            );
+            break;
+          case ConnectionState.active :
+          case ConnectionState.done :
+            if(snapshot.hasData){
+
+              return ListView.separated(
+                itemBuilder: (context, index){
+
+                  List<Video>? videos = snapshot.data;
+                  Video video = videos![index];
+
+                  Container(
+                    child: Column(
+                          children: <Widget>[
+                            Container(
+                              height: 200,
+                              decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: NetworkImage(video.imagem),
+                                  )
+                              ),
+                            ),
+                            ListTile(
+                              title: Text(video.titulo),
+                              subtitle: Text(video.canal),
+                            )
+                          ],
+                    ),
+                  );
+                },
+                separatorBuilder: (context, index) => Divider(
+                  height: 2,
+                  color: Colors.grey,
+                ),
+                itemCount: snapshot.data!.length,
+              );
+
+            }else{
+              return Center(
+                child: Text("Nenhum dado a ser exibido."),
+              );
+            }
+            break;
+        }
+      },
+    );
+
+/*
     return Scaffold(
+
       appBar: AppBar(
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(2)
@@ -27,6 +95,8 @@ class _TrainingState extends State<Training> {
           ],
         ),
       ),
+
+
       body: Container(
           alignment: Alignment.center,
           //padding: EdgeInsets.all(32),
@@ -58,6 +128,7 @@ class _TrainingState extends State<Training> {
                   ),
                 ),
               ),
+
               Padding(padding: EdgeInsets.only(top: 5),
                 child: Text(
                   'Nenhum registo',
@@ -68,6 +139,8 @@ class _TrainingState extends State<Training> {
                   ),
                 ),
               ),
+
+
               Padding(padding: EdgeInsets.only(top: 5),
                 child: Text(
                   'Não há nenhum treino registrado',
@@ -82,5 +155,6 @@ class _TrainingState extends State<Training> {
           )
       ),
     );
+    */
   }
 }
