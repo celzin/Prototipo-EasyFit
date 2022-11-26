@@ -44,6 +44,22 @@ Partindo para a parte prática, começamos a desenvolver a primeira versão do A
   
 </div>
 
+## Versão 1.2
+
+<div align="justify">
+
+[+] Funcionalidade de Login e Logout.
+  
+[+] Adição dos treinos A, B e C da página home do app.
+
+[+] Adição dos treinos A, B e C da página home do app.
+
+[+] Adição de conteúdo na página TREINOS. 
+
+[+] Adição dos gifs dos exercícios e nomes de cada exercício.
+  
+</div>
+
 ## Contatos
 
 <div align="left">
