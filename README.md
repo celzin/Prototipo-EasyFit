@@ -52,11 +52,11 @@ Partindo para a parte prática, começamos a desenvolver a primeira versão do A
   
 [+] Adição dos treinos A, B e C da página home do app.
 
-[+] Adição dos treinos A, B e C da página home do app.
-
 [+] Adição de conteúdo na página TREINOS. 
 
 [+] Adição dos gifs dos exercícios e nomes de cada exercício.
+
+[-] Remoção do botão MAIS.
   
 </div>
 
