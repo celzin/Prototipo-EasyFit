@@ -56,7 +56,15 @@ Partindo para a parte prática, começamos a desenvolver a primeira versão do A
 
 [+] Adição dos gifs dos exercícios e nomes de cada exercício.
 
+[+] Adição do conteúdo da página PAGAMENTOS.
+
+[+] Adição do conteúdo da página FICHAS (avaliação física).
+
+[+] Adição do bottom bar em todas as páginas do aplicativo.
+
 [-] Remoção do botão MAIS.
+
+
   
 </div>
 
