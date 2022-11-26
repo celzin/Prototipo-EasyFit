@@ -95,6 +95,85 @@ class _HomePageState extends State<HomePage> {
                   child: const Text('Gerar QR Code'))),
         ],
       ),
+
+      bottomNavigationBar: BottomAppBar(
+        //shape: ,
+        color: Colors.black87,
+        child: Container(
+          height: 60,
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IconButton(
+                tooltip: 'Voltar pra HOME',
+                icon: const Icon(
+                  Icons.home_rounded,
+                  color: Colors.white,
+                  size: 45,
+                ),
+                onPressed: () {
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/");
+                },
+              ),
+              IconButton(
+                tooltip: 'Ir pra TREINOS',
+                icon: const Icon(
+                  Icons.fitness_center_rounded,
+                  color: Colors.white,
+                  size: 45,
+                ),
+                onPressed: () {
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/treinos");
+                },
+              ),
+              IconButton(
+                tooltip: 'Ir para PAGAMENTOS',
+                icon: const Icon(
+                  Icons.monetization_on_rounded,
+                  color: Colors.white,
+                  size: 45,
+                ),
+                onPressed: () {
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/pagamentos");
+                },
+              ),
+              IconButton(
+                tooltip: 'Ir para FICHAS',
+                icon: const Icon(
+                  Icons.note_alt_rounded,
+                  color: Colors.white,
+                  size: 45,
+                ),
+                onPressed: () {
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/fichas");
+                },
+              ),
+
+              /*
+              IconButton(
+                tooltip: 'Ir para MAIS',
+                icon: const Icon(
+                  Icons.menu_rounded,
+                  color: Colors.white,
+                  size: 45,
+                ),
+                onPressed: () {
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/mais");
+                },
+              ),
+              */
+
+            ],
+          ),
+        ),
+      ),
+
     );
   }
 }

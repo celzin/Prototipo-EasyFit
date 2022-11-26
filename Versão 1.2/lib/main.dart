@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:prototipo_1/home.dart';
 import 'package:prototipo_1/providers/autentificacao.dart';
 import 'package:prototipo_1/telas/autentificacao_tela.dart';
 import 'package:prototipo_1/telas/splash_tela.dart';
+
+import 'home.dart';
+import 'training.dart';
+import 'payments.dart';
+import 'files.dart';
+import 'more.dart';
 
 void main() => runApp(MyApp());
 
@@ -49,6 +54,15 @@ class MyApp extends StatelessWidget {
       // wrapping MeterialApp with a Consumer unsures that it gets built only when Auth changes
       child: Consumer<Auth>(
         builder: (ctx, auth, _) => MaterialApp(
+
+          initialRoute: "/",
+          routes: {
+            "/treinos": (context) => Training(),
+            "/pagamentos": (context) => Payments(),
+            "/fichas": (context) => Files(),
+            "/mais": (context) => More(),
+          },
+
           title: 'MyShop',
           debugShowCheckedModeBanner: false,
           theme: ThemeData(
@@ -72,9 +86,9 @@ class MyApp extends StatelessWidget {
                           : AuthScreen(),
                 ),
           // screen navigation
-          routes: {
+          //routes: {
             // ProductDetailScreen.routeName: (ctx) => ProductDetailScreen(),
-          },
+          //},
         ),
       ),
     );

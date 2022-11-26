@@ -75,6 +75,7 @@ flutter:
     - images/ironberg.png
     - images/muzy.jpg
     - images/phpd.jpg
+    - images/avaliacao.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

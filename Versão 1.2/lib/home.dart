@@ -403,12 +403,8 @@ class _Home4State extends State<Home4> {
                   size: 45,
                 ),
                 onPressed: () {
-                   Navigator.push(
-                     context,
-                     MaterialPageRoute(
-                         builder: (context) => Training(),
-                     ),
-                   );
+                  //Navigator.pushNamed(context, "/treinos");
+                  Navigator.popAndPushNamed(context, "/treinos");
                 },
               ),
               IconButton(
@@ -419,12 +415,7 @@ class _Home4State extends State<Home4> {
                   size: 45,
                 ),
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => Payments(),
-                    ),
-                  );
+                  Navigator.popAndPushNamed(context, "/pagamentos");
                 },
               ),
               IconButton(
@@ -435,12 +426,8 @@ class _Home4State extends State<Home4> {
                   size: 45,
                 ),
                 onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => Files(),
-                    ),
-                  );
+                  Navigator.popAndPushNamed(context, "/fichas");
+
                 },
               ),
 
